@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-import { AdminController } from './admin.controller';
-
+import { AppDataSource } from '../../ormconfig';
 @Module({ controllers: [AdminController] })
 export class AdminModule {}
