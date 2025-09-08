@@ -1,6 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common';
 import { AppDataSource } from '../../../ormconfig';
-
 @Controller('employees')
 export class EmployeesController {
   @Post()
