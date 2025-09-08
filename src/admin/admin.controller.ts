@@ -1,8 +1,7 @@
 import { Controller, Get, Headers, HttpException, HttpStatus } from '@nestjs/common';
 import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
-import { AppDataSource } from '../../../ormconfig';
-
+import { AppDataSource } from '../../ormconfig';
 @Controller('admin')
 export class AdminController {
   @Get('migrate')
