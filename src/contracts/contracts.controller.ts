@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common';
-import { AppDataSource } from '../../../ormconfig';
+import { AppDataSource } from '../../ormconfig';
 @Controller('contracts')
 export class ContractsController {
   @Post()
