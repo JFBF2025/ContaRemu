@@ -1,5 +1,5 @@
 import { Body, Controller, Param, Post } from '@nestjs/common';
-import { AppDataSource } from '../../../ormconfig';
+import { AppDataSource } from '../../ormconfig';
 @Controller('payruns')
 export class PayrunsController {
   @Post(':period/compute')
