@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 import { AppDataSource } from '../../../ormconfig';
-
 @Injectable()
 export class CompaniesService {
   async create(body: any) {
