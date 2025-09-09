@@ -1,7 +1,6 @@
 {
   "name": "contaremu",
   "private": true,
-  "type": "module",
   "engines": { "node": ">=20" },
   "scripts": {
     "start": "nest start",
