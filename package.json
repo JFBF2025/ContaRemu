@@ -7,7 +7,7 @@
     "start": "nest start",
     "start:dev": "nest start --watch",
     "build": "nest build",
-    "start:prod": "node dist/main.js",
+    "start:prod": "node dist/src/main.js",
     "migration:run": "ts-node -r tsconfig-paths/register src/database/migrations/1700000000000-init-schema.ts --run",
     "seed": "ts-node -r tsconfig-paths/register src/database/seed/seed_pay_items.ts"
   },
